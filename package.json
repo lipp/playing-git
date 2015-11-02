@@ -1,0 +1,42 @@
+{
+  "name": "playing-git",
+  "description": "demo for git usage",
+  "url": "https://github.com/lipp/playing-git",
+  "keywords": [
+  ],
+  "author": "Gerhard Preuss <gelipp@gmail.com>",
+  "contributors": [
+    {
+      "name": "Gerhard Preuss",
+      "email": "gelipp@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "chai": "3.4.0",
+    "coveralls": "2.11.4",
+    "istanbul": "0.4.0",
+    "js-beautify": "1.5.10",
+    "mocha": "2.3.3"
+  },
+  "dependencies": {
+  },
+  "main": "./lib/playing-git.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipp/playing-git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "istanbul cover _mocha -- --recursive test",
+    "test_nocover": "mocha  test"
+  },
+  "engines": {
+    "node": ">0.8.0"
+  },
+  "homepage": "http://github.com/lipp/playing-git",
+  "bugs": {
+    "url": "http://github.com/lipp/playing-git/issues",
+    "email": "gelipp@gmail.com"
+  }
+}
