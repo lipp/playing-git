@@ -31,4 +31,16 @@ describe('The playing-git module "pg"', function() {
         });
     });
 
+    describe('pg.divide', function() {
+        var divide = pg.divide;
+
+        it('is a function', function() {
+            expect(divide).to.be.a('function');
+        });
+
+        it('(4,2) returns 2', function() {
+            expect(divide(4, 2)).to.equal(2);
+        });
+    });
+
 });
