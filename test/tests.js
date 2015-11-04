@@ -19,4 +19,16 @@ describe('The playing-git module "pg"', function() {
         });
     });
 
+    describe('pg.diff', function() {
+        var diff = pg.diff;
+
+        it('is a function', function() {
+            expect(diff).to.be.a('function');
+        });
+
+        it('(1,2) returns -1', function() {
+            expect(diff(1, 2)).to.equal(-1);
+        });
+    });
+
 });
