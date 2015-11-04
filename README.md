@@ -7,6 +7,16 @@ for git demo, nothing useful. start playing with git, travis and coveralls.
 # Workflow
 
 - fork on github (once)
-- clone 
+- clone
 - branch
 - make PR
+
+## Tests
+
+```bash
+npm test
+```
+
+## License
+
+MIT
